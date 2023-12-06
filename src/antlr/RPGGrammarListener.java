@@ -1,4 +1,4 @@
-// Generated from RPGGrammar.g4 by ANTLR 4.13.1
+package antlr;// Generated from RPGGrammar.g4 by ANTLR 4.13.1
 import org.antlr.v4.runtime.tree.ParseTreeListener;
 
 /**
@@ -46,4 +46,14 @@ public interface RPGGrammarListener extends ParseTreeListener {
 	 * @param ctx the parse tree
 	 */
 	void exitDeclaracao(RPGGrammarParser.DeclaracaoContext ctx);
+	/**
+	 * Enter a parse tree produced by {@link RPGGrammarParser#metodo}.
+	 * @param ctx the parse tree
+	 */
+	void enterMetodo(RPGGrammarParser.MetodoContext ctx);
+	/**
+	 * Exit a parse tree produced by {@link RPGGrammarParser#metodo}.
+	 * @param ctx the parse tree
+	 */
+	void exitMetodo(RPGGrammarParser.MetodoContext ctx);
 }

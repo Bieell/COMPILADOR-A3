@@ -1,4 +1,4 @@
-// Generated from RPGGrammar.g4 by ANTLR 4.13.1
+package antlr;// Generated from RPGGrammar.g4 by ANTLR 4.13.1
 
 import org.antlr.v4.runtime.ParserRuleContext;
 import org.antlr.v4.runtime.tree.ErrorNode;
@@ -59,6 +59,18 @@ public class RPGGrammarBaseListener implements RPGGrammarListener {
 	 * <p>The default implementation does nothing.</p>
 	 */
 	@Override public void exitDeclaracao(RPGGrammarParser.DeclaracaoContext ctx) { }
+	/**
+	 * {@inheritDoc}
+	 *
+	 * <p>The default implementation does nothing.</p>
+	 */
+	@Override public void enterMetodo(RPGGrammarParser.MetodoContext ctx) { }
+	/**
+	 * {@inheritDoc}
+	 *
+	 * <p>The default implementation does nothing.</p>
+	 */
+	@Override public void exitMetodo(RPGGrammarParser.MetodoContext ctx) { }
 
 	/**
 	 * {@inheritDoc}
