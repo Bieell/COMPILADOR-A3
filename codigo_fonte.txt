@@ -1,0 +1,11 @@
+quest criarRPG() {
+    slot apelidoPlayer1 = "Gilverson";
+    slot apelidoPlayer2 = "Jurandino";
+    slot vidaPlayer1 = 100;
+    slot vidaPlayer2 = 100;
+    slot local = "Jardim Ibirapuera";
+    lutar(apelidoPlayer1, vidaPlayer1 , apelidoPlayer2, vidaPlayer2, local, "Rolamento de Pneu", 3);
+    curar(apelidoPlayer2, vidaPlayer2, 3);
+    fugir(apelidoPlayer2, vidaPlayer2);
+    especial(apelidoPlayer2, vidaPlayer2, "Cuspe radiotivo");
+}

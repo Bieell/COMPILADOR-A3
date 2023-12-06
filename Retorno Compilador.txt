@@ -1,0 +1,1 @@
+Declarou variável. Valor: "Gilverson"Declarou variável. Valor: "Jurandino"Declarou variável. Valor: 100Declarou variável. Valor: 100Declarou variável. Valor: "Jardim Ibirapuera"
