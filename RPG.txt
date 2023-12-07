@@ -1,0 +1,9 @@
+Declarou String. Valor: "Gilverson"
+Declarou String. Valor: "Jurandino"
+Declarou Inteiro. Valor: 100
+Declarou Inteiro. Valor: 100
+Declarou String. Valor: "Jardim Ibirapuera"
+Lutou
+Curou
+Fugiu
+Especial

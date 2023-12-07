@@ -77,7 +77,7 @@ public class RPGGrammarParser extends Parser {
 	}
 
 	@Override
-	public String getGrammarFileName() { return "RPGGrammar.g4"; }
+	public String getGrammarFileName() { return "antlr/RPGGrammar.g4"; }
 
 	@Override
 	public String[] getRuleNames() { return ruleNames; }
