@@ -1,9 +1,12 @@
-Declarou String. Valor: "Gilverson"
-Declarou String. Valor: "Jurandino"
-Declarou Inteiro. Valor: 100
-Declarou Inteiro. Valor: 100
-Declarou String. Valor: "Jardim Ibirapuera"
-Lutou
-Curou
-Fugiu
-Especial
+Gilverson atacou Jurandino usando Rolamento de Pneu 3 vezes no local Jardim Ibirapuera.
+Vida do Gilverson: 100
+Vida do Jurandino: 100
+
+Jurandino está com 100 de vida. Jurandino curou 3 vezes.
+
+Jurandino tentou fugir.
+
+Jurandino tentou usar o especial: Cuspe radiotivo em Gilverson no local: Jardim Ibirapuera.
+Vida do Jurandino: 100 de vida.
+Vida do Gilverson: 100 de vida.
+
