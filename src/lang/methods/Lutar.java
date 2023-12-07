@@ -1,11 +1,8 @@
 package lang.methods;
 
 import lang.model.Method;
-import lang.model.Variable;
 import lang.parameters.LutarParams;
 import util.Response;
-
-import java.util.List;
 
 public class Lutar implements Method {
 
