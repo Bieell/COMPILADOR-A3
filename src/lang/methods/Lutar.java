@@ -19,9 +19,9 @@ public class Lutar implements Method {
 
     @Override
     public void execute() {
-        String msg = String.format("%s atacou %s usando %s %d vezes no local %s.\n", params.getPlayerOne().getName(), params.getPlayerTwo().getName(), params.getAttack(), params.getNumberOfAttacks(), params.getLocal());
-        String msg2 = String.format("Vida do %s: %d\n", params.getPlayerOne().getName(), params.getPlayerOne().getHp());
-        String msg3 = String.format("Vida do %s: %d\n", params.getPlayerTwo().getName(), params.getPlayerTwo().getHp());
-        output.writeOnOutputFile(msg+msg2+msg3);
+        String msg1 = String.format("%s atacou %s usando %s %d vezes no local %s.\n", params.getPlayerOne().getName(), params.getPlayerTwo().getName(), params.getAttack(), params.getNumberOfAttacks(), params.getLocal());
+        String msg2 = String.format("Vida do %s: %d.\n", params.getPlayerOne().getName(), params.getPlayerOne().getHp());
+        String msg3 = String.format("Vida do %s: %d.\n", params.getPlayerTwo().getName(), params.getPlayerTwo().getHp());
+        output.writeOnOutputFile(msg1+msg2+msg3);
     }
 }
