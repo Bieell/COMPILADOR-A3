@@ -14,7 +14,7 @@ public class Player {
         return name;
     }
 
-    public void updateName(String name) {
+    public void setName(String name) {
         this.name = name;
     }
 
@@ -22,11 +22,11 @@ public class Player {
         return hp;
     }
 
-    public void updateHp(int hp) {
+    public void setHp(int hp) {
         this.hp = hp;
     }
 
-    public void setPlayerName(List<Variable> variableList, String arg) {
+    public void setVariablePlayerName(List<Variable> variableList, String arg) {
         String playerName = "";
 
         if(ParametersUtils.isVariable(arg)) {
@@ -37,7 +37,7 @@ public class Player {
         name = playerName;
     }
 
-    public void setPlayerHP(List<Variable> variableList, String arg) {
+    public void setVariablePlayerHP(List<Variable> variableList, String arg) {
         int playerHp = 0;
         if(ParametersUtils.isVariable(arg)) {
             playerHp = IntVar.getIntVarValue(variableList, arg);

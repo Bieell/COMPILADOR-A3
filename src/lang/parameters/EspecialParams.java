@@ -32,19 +32,37 @@ public class EspecialParams {
     }
 
     private void setPlayerOne() {
-        playerOne.setPlayerName(variableList, args[0]);
-        playerOne.setPlayerHP(variableList, args[1]);
+        if(ParametersUtils.isVariable(args[0])) {
+            playerOne.setVariablePlayerName(variableList, args[0]);
+        } else if(ParametersUtils.getTypeOfVar(args[0]).equals("string")) {
+            playerOne.setName(ParametersUtils.removeStringMarks(args[0]));
+        }
+
+        if(ParametersUtils.isVariable(args[1])) {
+            playerOne.setVariablePlayerHP(variableList, args[1]);
+        } else if (ParametersUtils.getTypeOfVar(args[1]).equals("int")){
+            playerOne.setHp(Integer.parseInt(args[1]));
+        }
     }
 
     private void setPlayerTwo() {
-        playerTwo.setPlayerName(variableList, args[2]);
-        playerTwo.setPlayerHP(variableList, args[3]);
+        if(ParametersUtils.isVariable(args[2])) {
+            playerTwo.setVariablePlayerName(variableList, args[2]);
+        } else if(ParametersUtils.getTypeOfVar(args[2]).equals("string")){
+            playerTwo.setName(ParametersUtils.removeStringMarks(args[2]));
+        }
+
+        if(ParametersUtils.isVariable(args[3])) {
+            playerTwo.setVariablePlayerHP(variableList, args[3]);
+        } else if (ParametersUtils.getTypeOfVar(args[3]).equals("int")){
+            playerTwo.setHp(Integer.parseInt(args[3]));
+        }
     }
 
     private void setLocal() {
         if(ParametersUtils.isVariable(args[4])) {
             local = StringVar.getStringVarValue(variableList, args[4]);
-        } else {
+        } else if(ParametersUtils.getTypeOfVar(args[4]).equals("string")){
             local = ParametersUtils.removeStringMarks(args[4]);
         }
     }
@@ -52,7 +70,7 @@ public class EspecialParams {
     private void setSpecialName() {
         if(ParametersUtils.isVariable(args[5])) {
             specialName = StringVar.getStringVarValue(variableList, args[5]);
-        } else {
+        } else if(ParametersUtils.getTypeOfVar(args[5]).equals("string")){
             specialName = ParametersUtils.removeStringMarks(args[5]);
         }
     }

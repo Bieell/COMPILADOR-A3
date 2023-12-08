@@ -3,9 +3,14 @@ quest criarRPG() {
     slot apelidoPlayer2 = "Jurandino";
     slot vidaPlayer1 = 100;
     slot vidaPlayer2 = 100;
-    slot local = "Jardim Ibirapuera";
-    lutar(apelidoPlayer1, vidaPlayer1 , apelidoPlayer2, vidaPlayer2, local, "Volante de Kombi", 10);
-    curar(apelidoPlayer2, vidaPlayer2, 3);
+    slot local = "Boteco do Chico";
+
+    lutar(apelidoPlayer1, vidaPlayer1, apelidoPlayer2, vidaPlayer2, local, "Volante de Kombi", 2);
+    lutar("Adenildo", 200, "Joelson", 150, "Faria Lima", "Espremedor de Limao", 4);
+
+    curar(apelidoPlayer2, 60, vidaPlayer2, 3);
+
     fugir(apelidoPlayer2, vidaPlayer2);
-    especial(apelidoPlayer2, vidaPlayer2, apelidoPlayer1, vidaPlayer1, local, "Cuspe radiotivo");
+
+    especial(apelidoPlayer2, vidaPlayer2, apelidoPlayer1, vidaPlayer1, local, "TACOU A CADEIRA");
 }

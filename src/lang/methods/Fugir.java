@@ -20,7 +20,16 @@ public class Fugir implements Method {
 
     @Override
     public void execute() {
-        String msg = String.format("%s tentou fugir.\n",params.getPlayer().getName());
+        String msg = String.format("\n%s tentou fugir.",params.getPlayer().getName());
         output.writeOnOutputFile(msg);
+        output.writeOnOutputFile(getFugirMessage());
+    }
+
+    private String getFugirMessage() {
+        double random = Math.random();
+        if(random > 0.5) {
+            return String.format("%s conseguiu fugir!!\n", params.getPlayer().getName());
+        }
+        return String.format("%s não conseguiu fugir...\n", params.getPlayer().getName());
     }
 }

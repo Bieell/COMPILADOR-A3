@@ -28,7 +28,7 @@ public class Lutar implements Method {
             output.writeOnOutputFile(getAttackMsg(i));
         }
         if(!isPlayerTwoDead) {
-            String msgSurvive = String.format("%s Sobreviveu!! \uD83D\uDE04\nLuta Encerrada.\n",params.getPlayerTwo().getName());
+            String msgSurvive = String.format("%s ta vivo!! \uD83D\uDE04\uD83D\uDE04\nLuta Encerrada.\n",params.getPlayerTwo().getName());
             output.writeOnOutputFile(msgSurvive);
         }
     }
@@ -44,10 +44,10 @@ public class Lutar implements Method {
             int playerTwoHp = params.getPlayerTwo().getHp();
             int atackDamage = getAttackDamage();
             int newHp = playerTwoHp - atackDamage;
-            params.getPlayerTwo().updateHp(newHp);
+            params.getPlayerTwo().setHp(newHp);
             msgAttack = String.format("Ataque %d: %s Acertou o Ataque! Dano: %d\n", attackNumber, params.getPlayerOne().getName(), atackDamage);;
         } else {
-            msgAttack = String.format("%s Morreu \uD83D\uDE2D\nLuta Encerrada...\n",params.getPlayerTwo().getName());
+            msgAttack = String.format("%s Morreu \uD83D\uDE2D\uD83D\uDE2D\nLuta Encerrada...\n",params.getPlayerTwo().getName());
             isPlayerTwoDead = true;
             return msgAttack;
         }

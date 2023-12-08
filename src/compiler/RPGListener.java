@@ -71,6 +71,8 @@ public class RPGListener extends RPGGrammarBaseListener {
     private void execMethod(ParserRuleContext ctx, String methodName) {
         String method = ctx.getChild(0).getText();
 
+        output.writeOnOutputFile("================================================");
+
         switch (methodName){
             case "lutar":
                 LutarParams paramsLutar = new LutarParams(method, variableList);
@@ -94,7 +96,4 @@ public class RPGListener extends RPGGrammarBaseListener {
                 break;
         }
     }
-
-
-
 }

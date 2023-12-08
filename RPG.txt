@@ -1,43 +1,65 @@
+================================================
 
-Gilverson atacou Jurandino usando Volante de Kombi 10 vezes no local: Jardim Ibirapuera.
+Gilverson atacou Jurandino usando Volante de Kombi 2 vezes no local: Boteco do Chico.
 Vida total de Gilverson: 100.
 Vida total de Jurandino: 100.
 
-Ataque 1: Jurandino Defendeu o Ataque!
-Vida do Jurandino: 100.
+Ataque 1: Gilverson Acertou o Ataque! Dano: 23
+Vida do Jurandino: 77.
 
-Ataque 2: Gilverson Acertou o Ataque! Dano: 28
-Vida do Jurandino: 72.
+Ataque 2: Jurandino Defendeu o Ataque!
+Vida do Jurandino: 77.
 
-Ataque 3: Gilverson Acertou o Ataque! Dano: 19
-Vida do Jurandino: 53.
+Jurandino ta vivo!! 😄😄
+Luta Encerrada.
 
-Ataque 4: Gilverson Acertou o Ataque! Dano: 15
-Vida do Jurandino: 38.
+================================================
 
-Ataque 5: Jurandino Defendeu o Ataque!
-Vida do Jurandino: 38.
+Adenildo atacou Joelson usando Espremedor de Limao 4 vezes no local: Faria Lima.
+Vida total de Adenildo: 200.
+Vida total de Joelson: 150.
 
-Ataque 6: Jurandino Defendeu o Ataque!
-Vida do Jurandino: 38.
+Ataque 1: Joelson Defendeu o Ataque!
+Vida do Joelson: 150.
 
-Ataque 7: Gilverson Acertou o Ataque! Dano: 8
-Vida do Jurandino: 30.
+Ataque 2: Adenildo Acertou o Ataque! Dano: 34
+Vida do Joelson: 116.
 
-Ataque 8: Gilverson Acertou o Ataque! Dano: 9
-Vida do Jurandino: 21.
+Ataque 3: Joelson Defendeu o Ataque!
+Vida do Joelson: 116.
 
-Ataque 9: Gilverson Acertou o Ataque! Dano: 21
-Vida do Jurandino: 0.
+Ataque 4: Adenildo Acertou o Ataque! Dano: 26
+Vida do Joelson: 90.
 
-Jurandino Morreu 😭
-Luta Encerrada...
+Joelson ta vivo!! 😄😄
+Luta Encerrada.
 
-Jurandino está com 100 de vida. Jurandino curou 3 vezes.
+================================================
+
+Jurandino tentou se curar 3 vezes.
+Jurandino está com 60 de vida. Vida inicial: 100
+
+Tentativa de Cura 1:
+Jurandino curou 23 de vida
+Vida do Jurandino: 83.
+
+Tentativa de Cura 2:
+Jurandino curou 23 de vida
+Vida do Jurandino: 106.
+
+Tentativa de Cura 3:
+Jurandino não conseguiu se curar...
+
+================================================
 
 Jurandino tentou fugir.
+Jurandino conseguiu fugir!!
 
-Jurandino tentou usar o especial: Cuspe radiotivo em Gilverson no local: Jardim Ibirapuera.
+================================================
+
+Jurandino tentou usar o especial: TACOU A CADEIRA em Gilverson no local: Boteco do Chico.
 Vida do Jurandino: 100 de vida.
 Vida do Gilverson: 100 de vida.
+
+Jurandino não acertou o especial em Gilverson...
 
