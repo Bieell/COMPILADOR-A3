@@ -4,7 +4,7 @@ quest criarRPG() {
     slot vidaPlayer1 = 100;
     slot vidaPlayer2 = 100;
     slot local = "Jardim Ibirapuera";
-    lutar(apelidoPlayer1, vidaPlayer1 , apelidoPlayer2, vidaPlayer2, local, "Rolamento de Pneu", 3);
+    lutar(apelidoPlayer1, vidaPlayer1 , apelidoPlayer2, vidaPlayer2, local, "Volante de Kombi", 10);
     curar(apelidoPlayer2, vidaPlayer2, 3);
     fugir(apelidoPlayer2, vidaPlayer2);
     especial(apelidoPlayer2, vidaPlayer2, apelidoPlayer1, vidaPlayer1, local, "Cuspe radiotivo");

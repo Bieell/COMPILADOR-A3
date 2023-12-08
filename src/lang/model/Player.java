@@ -14,7 +14,7 @@ public class Player {
         return name;
     }
 
-    public void setName(String name) {
+    public void updateName(String name) {
         this.name = name;
     }
 
@@ -22,7 +22,7 @@ public class Player {
         return hp;
     }
 
-    private void setHp(int hp) {
+    public void updateHp(int hp) {
         this.hp = hp;
     }
 
@@ -34,7 +34,7 @@ public class Player {
         } else {
             playerName = ParametersUtils.removeStringMarks(arg);
         }
-        this.setName(playerName);
+        name = playerName;
     }
 
     public void setPlayerHP(List<Variable> variableList, String arg) {
@@ -44,6 +44,6 @@ public class Player {
         } else {
             playerHp = Integer.parseInt(arg);
         }
-        this.setHp(playerHp);
+        hp = (playerHp);
     }
 }

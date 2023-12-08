@@ -73,20 +73,23 @@ public class RPGListener extends RPGGrammarBaseListener {
 
         switch (methodName){
             case "lutar":
-
-                Lutar lutar = new Lutar(output, new LutarParams(method, variableList));
+                LutarParams paramsLutar = new LutarParams(method, variableList);
+                Lutar lutar = new Lutar(output, paramsLutar);
                 lutar.execute();
                 break;
             case "curar":
-                Curar curar = new Curar(output, new CurarParams(method, variableList));
+                CurarParams paramsCurar = new CurarParams(method, variableList);
+                Curar curar = new Curar(output, paramsCurar);
                 curar.execute();
                 break;
             case "fugir":
-                Fugir fugir = new Fugir(output, new FugirParams(method, variableList));
+                FugirParams paramsFugir = new FugirParams(method, variableList);
+                Fugir fugir = new Fugir(output, paramsFugir);
                 fugir.execute();
                 break;
             case "especial":
-                Especial especial = new Especial(output, new EspecialParams(method, variableList));
+                EspecialParams paramsEspecial = new EspecialParams(method, variableList);
+                Especial especial = new Especial(output, paramsEspecial);
                 especial.execute();
                 break;
         }

@@ -1,6 +1,37 @@
-Gilverson atacou Jurandino usando Rolamento de Pneu 3 vezes no local Jardim Ibirapuera.
-Vida do Gilverson: 100
-Vida do Jurandino: 100
+
+Gilverson atacou Jurandino usando Volante de Kombi 10 vezes no local: Jardim Ibirapuera.
+Vida total de Gilverson: 100.
+Vida total de Jurandino: 100.
+
+Ataque 1: Jurandino Defendeu o Ataque!
+Vida do Jurandino: 100.
+
+Ataque 2: Gilverson Acertou o Ataque! Dano: 28
+Vida do Jurandino: 72.
+
+Ataque 3: Gilverson Acertou o Ataque! Dano: 19
+Vida do Jurandino: 53.
+
+Ataque 4: Gilverson Acertou o Ataque! Dano: 15
+Vida do Jurandino: 38.
+
+Ataque 5: Jurandino Defendeu o Ataque!
+Vida do Jurandino: 38.
+
+Ataque 6: Jurandino Defendeu o Ataque!
+Vida do Jurandino: 38.
+
+Ataque 7: Gilverson Acertou o Ataque! Dano: 8
+Vida do Jurandino: 30.
+
+Ataque 8: Gilverson Acertou o Ataque! Dano: 9
+Vida do Jurandino: 21.
+
+Ataque 9: Gilverson Acertou o Ataque! Dano: 21
+Vida do Jurandino: 0.
+
+Jurandino Morreu 😭
+Luta Encerrada...
 
 Jurandino está com 100 de vida. Jurandino curou 3 vezes.
 
