@@ -1,17 +1,41 @@
 ================================================
 
-Gilverson atacou Jurandino usando Volante de Kombi 2 vezes no local: Boteco do Chico.
+Gilverson atacou Jurandino usando Volante de Kombi 15 vezes no local: Boteco do Chico.
 Vida total de Gilverson: 100.
 Vida total de Jurandino: 100.
 
-Ataque 1: Gilverson Acertou o Ataque! Dano: 23
-Vida do Jurandino: 77.
+Ataque 1: Gilverson Acertou o Ataque! Dano: 28
+Vida do Jurandino: 72.
 
 Ataque 2: Jurandino Defendeu o Ataque!
-Vida do Jurandino: 77.
+Vida do Jurandino: 72.
 
-Jurandino ta vivo!! 😄😄
-Luta Encerrada.
+Ataque 3: Gilverson Acertou o Ataque! Dano: 17
+Vida do Jurandino: 55.
+
+Ataque 4: Jurandino Defendeu o Ataque!
+Vida do Jurandino: 55.
+
+Ataque 5: Gilverson Acertou o Ataque! Dano: 14
+Vida do Jurandino: 41.
+
+Ataque 6: Jurandino Defendeu o Ataque!
+Vida do Jurandino: 41.
+
+Ataque 7: Jurandino Defendeu o Ataque!
+Vida do Jurandino: 41.
+
+Ataque 8: Gilverson Acertou o Ataque! Dano: 9
+Vida do Jurandino: 32.
+
+Ataque 9: Gilverson Acertou o Ataque! Dano: 8
+Vida do Jurandino: 24.
+
+Ataque 10: Gilverson Acertou o Ataque! Dano: 24
+Vida do Jurandino: 0.
+
+Jurandino Morreu 😭😭
+Luta Encerrada...
 
 ================================================
 
@@ -22,14 +46,14 @@ Vida total de Joelson: 150.
 Ataque 1: Joelson Defendeu o Ataque!
 Vida do Joelson: 150.
 
-Ataque 2: Adenildo Acertou o Ataque! Dano: 34
-Vida do Joelson: 116.
+Ataque 2: Joelson Defendeu o Ataque!
+Vida do Joelson: 150.
 
 Ataque 3: Joelson Defendeu o Ataque!
-Vida do Joelson: 116.
+Vida do Joelson: 150.
 
-Ataque 4: Adenildo Acertou o Ataque! Dano: 26
-Vida do Joelson: 90.
+Ataque 4: Adenildo Acertou o Ataque! Dano: 35
+Vida do Joelson: 115.
 
 Joelson ta vivo!! 😄😄
 Luta Encerrada.
@@ -40,12 +64,10 @@ Jurandino tentou se curar 3 vezes.
 Jurandino está com 60 de vida. Vida inicial: 100
 
 Tentativa de Cura 1:
-Jurandino curou 23 de vida
-Vida do Jurandino: 83.
+Jurandino não conseguiu se curar...
 
 Tentativa de Cura 2:
-Jurandino curou 23 de vida
-Vida do Jurandino: 106.
+Jurandino não conseguiu se curar...
 
 Tentativa de Cura 3:
 Jurandino não conseguiu se curar...
@@ -59,7 +81,9 @@ Jurandino conseguiu fugir!!
 
 Jurandino tentou usar o especial: TACOU A CADEIRA em Gilverson no local: Boteco do Chico.
 Vida do Jurandino: 100 de vida.
-Vida do Gilverson: 100 de vida.
+Vida do Gilverson: 59 de vida.
 
-Jurandino não acertou o especial em Gilverson...
+Jurandino acertou o especial em Gilverson!
+Dano causado: 59
+Vida do Gilverson: 0.
 
